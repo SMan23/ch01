@@ -8,11 +8,11 @@ import views.html.*;
 public class Application extends Controller {
   
     public static Result index() {
-        return ok("Hello world");
+        return ok("Hola Mundo");
     }
 
     public static Result hello(String name) {
-    	return ok("Hello " + name);
+    	return ok("Hola " + name);
     }
   
 }
